@@ -3,9 +3,9 @@
 Predicting NFL Game Outcomes Using ELO Ratings and Machine Learning Models - Installation Guide
 
 Prerequisites-
-	Python 3.8 or higher
-	Neo4j Database
-	Git (optional)
+Python 3.8 or higher
+Neo4j Database
+Git (optional)
 
          -pandas
          -numpy
@@ -19,9 +19,9 @@ Prerequisites-
 Neo4j Setup-
 Download and install Neo4j Desktop from https://neo4j.com/download/
 Create a new database with the following credentials:
-	URI: "bolt://localhost:7687"
-	Username: "neo4j"
-	Password: "password"
+URI: "bolt://localhost:7687"
+Username: "neo4j"
+Password: "password"
 
 Troubleshooting-
 Ensure Neo4j database is running before executing the ELO rating system
