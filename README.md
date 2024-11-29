@@ -17,20 +17,20 @@ Prerequisites-
          -seaborn
 
 Neo4j Setup-
-1.	Download and install Neo4j Desktop from https://neo4j.com/download/
-2.	Create a new database with the following credentials:
+Download and install Neo4j Desktop from https://neo4j.com/download/
+Create a new database with the following credentials:
 	URI: "bolt://localhost:7687"
 	Username: "neo4j"
 	Password: "password"
 
 Troubleshooting-
-•	Ensure Neo4j database is running before executing the ELO rating system
-•	Check if all required Python packages are installed correctly
-•	Verify the data directory structure and file locations
+Ensure Neo4j database is running before executing the ELO rating system
+Check if all required Python packages are installed correctly
+Verify the data directory structure and file locations
 
 Additional Notes-
-•	The project is configured to use the last 500 games for testing
-•	Models are trained on data prior to 2018
-•	Default hyperparameters can be modified in the respective Jupyter Notebook files.
+The project is configured to use the last 500 games for testing
+Models are trained on data prior to 2018
+Default hyperparameters can be modified in the respective Jupyter Notebook files.
 
 
